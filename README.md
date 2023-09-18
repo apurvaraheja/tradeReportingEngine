@@ -1,5 +1,4 @@
-# tradeReportingEngine
-# Design and Implementation of an XML Event Processing System with Spring Boot
+# Design and Implementation of an XML Event Processing System - Trade Reporting System with Spring Boot
 
 ## Introduction
 
