@@ -1,0 +1,18 @@
+server:
+  port: 8080 # Change the port if needed
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb # Change to your actual database URL
+    driver-class-name: org.h2.Driver
+    username: your-username # Change to your database username
+    password: your-password # Change to your database password
+  h2:
+    console:
+      enabled: true # Enable H2 console for debugging purposes
+  jpa:
+    hibernate:
+      ddl-auto: update # Change to create-drop for development, none for production
+    show-sql: true # Show SQL queries in the console for debugging
+
+# Add any other custom application properties here
